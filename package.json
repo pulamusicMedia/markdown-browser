@@ -1,0 +1,24 @@
+{
+  "name": "markdown-browser",
+  "version": "0.1.0",
+  "description": "a markdown converter for the browser",
+  "main": "js/index.js",
+  "scripts": {
+    "dev": "parcel watch serve index.html"
+  },
+  "keywords": [
+    "markdown",
+    "node"
+  ],
+  "author": "Jim Carroll",
+  "license": "MIT",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap-scss": "^5.0.1",
+    "marked": "^2.0.7"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "postcss": "^8.3.2"
+  }
+}
